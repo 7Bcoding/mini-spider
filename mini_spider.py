@@ -22,6 +22,7 @@ class mini_spider(object):
         self.interval = params[3]
         self.timeout = params[4]
         self.thread_count = params[5]
+        self.target_url = ".*\.(gif|png|jpg|bmp)$"
         self.urlqueue = Queue()
 
     def getpages(self):
@@ -112,4 +113,3 @@ if __name__ == '__main__':
         conf_params = configparse().parse(args.conf)
         spider = mini_spider(conf_params)
         spider.getpages()
-
