@@ -7,8 +7,7 @@ from lxml import etree
 from bs4 import BeautifulSoup
 import argparse
 import requests
-import logging
-import logging.handlers
+import log
 
 
 class mini_spider(object):
@@ -38,10 +37,10 @@ class mini_spider(object):
             urlarr = list(set(url_arr))
             print(len(urlarr), urlarr)
             self.page_detail()
-            # logging.info('there is the page:')
-            # logging.info(urlarr)
+            # log.info('there is the page:')
+            # log.info(urlarr)
         except Exception as e:
-            logging.error(e)
+            log.error(e)
 
     def page_detail(self):
         urls = self.urlqueue.get()
@@ -81,33 +80,10 @@ class argsparse(object):
             return args
 
 
-class logger(object):
-    def init_log(self, log_path, level=logging.INFO, when="D", backup=7,
-                 format="%(levelname)s: %(asctime)s: %(filename)s:%(lineno)d * %(thread)d %(message)s",
-                 datefmt="%m-%d %H:%M:%S"):
-        formatter = logging.Formatter(format, datefmt)
-        logger = logging.getLogger()
-        logger.setLevel(level)
-        dir = os.path.dirname(log_path)
-        if not os.path.isdir(dir):
-            os.makedirs(dir)
-        handler = logging.handlers.TimedRotatingFileHandler(log_path + ".log",
-                                                            when=when,
-                                                            backupCount=backup)
-        handler.setLevel(level)
-        handler.setFormatter(formatter)
-        logger.addHandler(handler)
-        handler = logging.handlers.TimedRotatingFileHandler(log_path + ".log.wf",
-                                                            when=when,
-                                                            backupCount=backup)
-        handler.setLevel(logging.WARNING)
-        handler.setFormatter(formatter)
-        logger.addHandler(handler)
 
 
 if __name__ == '__main__':
     args = argsparse().getargs()
-    log = logger()
     log.init_log('./mini_spider')
     if args:
         conf_params = configparse().parse(args.conf)
