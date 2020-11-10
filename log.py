@@ -2,12 +2,12 @@
 # !/usr/bin/env python
 ################################################################################
 #
-# Copyright (c) 2015 Baidu.com, Inc. All Rights Reserved
+# Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
 """
 This module is the log module Baidu.com supplies
-author linnan01(com@baidu.com)
+author cenquanyu(com@baidu.com)
 """
 
 import logging
