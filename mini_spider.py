@@ -4,7 +4,9 @@
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
-
+"""
+This main module
+"""
 import log
 from worker import param_parse
 from worker import spider_engine

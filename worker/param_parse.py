@@ -4,6 +4,7 @@
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
+
 import argparse
 import logging
 import log

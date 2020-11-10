@@ -1,11 +1,11 @@
-# !/usr/bin/env python
+# /usr/bin/python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
 """
-This main module
+main module
 """
 # /usr/bin/python
 
