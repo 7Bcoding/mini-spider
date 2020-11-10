@@ -10,7 +10,7 @@ main module
 # /usr/bin/python
 
 import log
-from worker import param_parse
+from worker import parms_parser
 from worker import spider_engine
 
 
@@ -19,8 +19,8 @@ def main():
     the main method to run mini spider
     """
     # 配置文件参数初始化
-    conf_parser = param_parse.config_parser()
-    argsparser = param_parse.args_parser()
+    conf_parser = parms_parser.config_parser()
+    argsparser = parms_parser.args_parser()
     # 获取控制台输入参数
     args = argsparser.get_args()
     # 初始化日志配置
