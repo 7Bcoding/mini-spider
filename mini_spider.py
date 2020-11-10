@@ -80,8 +80,6 @@ class argsparse(object):
             return args
 
 
-
-
 if __name__ == '__main__':
     args = argsparse().getargs()
     log.init_log('./mini_spider')
