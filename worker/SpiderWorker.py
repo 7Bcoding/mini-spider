@@ -12,7 +12,7 @@ import log
 import logging
 
 
-class SpiderEngine(object):
+class SpiderWorker(object):
     def __init__(self, *args, **kwargs):
         params = args[0]
         self.urls = params[0]

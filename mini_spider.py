@@ -9,7 +9,7 @@ This main module
 """
 import log
 from worker import param_parser
-from worker import spider_engine
+from worker import SpiderWorker
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
         # 读取配置文件spider.conf，获取参数
         conf_params = parm_parse.set_config_by_file(args.conf)
         # 通过配置文件设置爬虫初始化参数
-        spider = spider_engine.SpiderEngine(conf_params)
+        spider = SpiderWorker.SpiderWorker(conf_params)
         spider.getpages()
 
 
