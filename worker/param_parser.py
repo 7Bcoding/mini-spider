@@ -11,7 +11,8 @@ import log
 import configparser
 
 
-class config_parser(object):
+class parm_parser(object):
+
     def set_config_by_file(self, config_file):
         config = configparser.ConfigParser()
         config.read(config_file, encoding='utf-8')
@@ -23,8 +24,6 @@ class config_parser(object):
         thread_count = config['spider']['thread_count']  # scratch thread
         return urls, result, max_depth, crawl_interval, crawl_timeout, thread_count
 
-
-class args_parser(object):
     def get_args(self):
         try:
             parser = argparse.ArgumentParser(prog='mini_spider',

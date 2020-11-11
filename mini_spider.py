@@ -8,7 +8,7 @@
 This main module
 """
 import log
-from worker import parms_parser
+from worker import param_parser
 from worker import spider_engine
 
 
@@ -17,7 +17,7 @@ def main():
     the main method to run mini spider
     """
     # 获取控制台输入参数
-    parm_parse = parms_parser.parms_parser()
+    parm_parse = param_parser.parm_parser()
     args = parm_parse.get_args()
     # 初始化日志配置
     log.init_log('./mini_spider')
