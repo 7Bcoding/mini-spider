@@ -13,7 +13,8 @@ import configparser
 
 class parm_parser(object):
 
-    def set_config_by_file(self, config_file):
+    @staticmethod
+    def set_config_by_file(config_file):
         config = configparser.ConfigParser()
         config.read(config_file, encoding='utf-8')
         urls = config['spider']['feedfile']  # feedfile path
@@ -24,7 +25,8 @@ class parm_parser(object):
         thread_count = config['spider']['thread_count']  # scratch thread
         return urls, result, max_depth, crawl_interval, crawl_timeout, thread_count
 
-    def get_args(self):
+    @staticmethod
+    def get_args():
         try:
             parser = argparse.ArgumentParser(prog='mini_spider',
                                              usage='minispider using method',
@@ -37,10 +39,11 @@ class parm_parser(object):
         args = parser.parse_args()
         print(args)
         if args.version:
-            self.version()
+            parm_parser.version()
         if args.conf:
             return args
 
+    @staticmethod
     def version(self):
         """
         print version

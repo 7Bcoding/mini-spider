@@ -11,13 +11,13 @@ import requests
 import log
 import logging
 
+from worker.UrlHandler import UrlHandler
+
 
 class SpiderWorker(object):
     def __init__(self, *args, **kwargs):
         params = args[0]
         self.urls = params[0]
-        self.headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
-                                      ' (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36'}
         self.result = params[1]
         self.maxdepth = params[2]
         self.interval = params[3]
@@ -26,18 +26,14 @@ class SpiderWorker(object):
         self.target_url = ".*\.(gif|png|jpg|bmp)$"
         self.urlqueue = Queue()
 
-    def getpages(self):
+    def start_work(self):
         url_arr = []  # 首页链接列表
         try:
-            response = requests.get(self.urls, self.headers['User-Agent'])
-            soup = BeautifulSoup(response.text, 'html.parser')
-            url_list = soup.select('a')
-            for links in url_list:
-                if links.has_attr('href'):
-                    self.urlqueue.put(self.urls + links['href'])
-                    url_arr.append(self.urls + links['href'])
-            urlarr = list(set(url_arr))
-            print(len(urlarr), urlarr)
+            content = UrlHandler.get_content(self.urls)
+            sub_urls = UrlHandler.get_urls(self.urls)
+            for url in sub_urls:
+                self.urlqueue.put(url)
+            print(len(sub_urls), sub_urls)
             self.page_detail()
             # logging.info('there is the page:')
             # logging.info(urlarr)
@@ -46,8 +42,8 @@ class SpiderWorker(object):
 
     def page_detail(self):
         urls = self.urlqueue.get()
-        print(urls, '详细内容为：')
-        response = requests.get(urls, self.headers['User-Agent'])
+        print(urls, '子页面链接为：')
+        response = requests.get(urls)
         soup = BeautifulSoup(response.text, 'html.parser')
         url_list = soup.select('a')
         for links in url_list:
