@@ -5,9 +5,9 @@
 #
 ################################################################################
 """
-This main module
+This is main module
+author cenquanyu(com@baidu.com)
 """
-from urllib import parse
 
 import log
 from worker.SpiderWorker import SpiderWorker

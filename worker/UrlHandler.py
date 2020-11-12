@@ -4,11 +4,11 @@
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
-
+"""
+This module is used to handle URL and HTTP related requests
+author cenquanyu@baidu.com
+"""
 import os
-import re
-import urllib
-import urllib3
 from urllib import parse, request
 import logging
 import chardet
@@ -142,17 +142,11 @@ class UrlHandler(object):
     @staticmethod
     def download_url(result_file, url):
         """
-        download html, file to local file
+        Download the URL that matches the characteristics, and save in a file
         :param result_file: base_path
         :param url: download url
         :return: succeed True, fail False
         """
-
-        # if not os.path.exists(result_file):
-        #     try:
-        #         os.mknod(result_file)
-        #     except os.error as err:
-        #         logging.error("download to path, mkdir errror: %s" % err)
 
         try:
             path = os.path.join(os.getcwd(), result_file)

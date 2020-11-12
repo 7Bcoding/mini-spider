@@ -4,10 +4,12 @@
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
-
+"""
+This module is used to parse params
+author cenquanyu@baidu.com
+"""
 import argparse
 import logging
-import log
 import configparser
 
 

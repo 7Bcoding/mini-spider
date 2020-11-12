@@ -6,7 +6,7 @@
 #
 ################################################################################
 """
-This module is the multi thread class for mini_spider
+This module is threading module, it is used to enable multithreading and multi line processing of requests
 author cenquanyu@baidu.com
 """
 
@@ -14,10 +14,7 @@ import logging
 import re
 import time
 import threading
-from queue import Queue
-from urllib import parse
 from worker.UrlHandler import UrlHandler
-from worker import SpiderWorker
 
 
 class SpiderThread(threading.Thread):
