@@ -4,13 +4,13 @@
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
-
+import os
 from queue import Queue
 from bs4 import BeautifulSoup
 import requests
 import log
 import logging
-
+from worker.SpiderThread import SpiderThread
 from worker.UrlHandler import UrlHandler
 
 
@@ -18,34 +18,63 @@ class SpiderWorker(object):
     def __init__(self, *args, **kwargs):
         params = args[0]
         self.urls = params[0]
-        self.result = params[1]
+        self.result_path = params[1]
         self.maxdepth = params[2]
         self.interval = params[3]
         self.timeout = params[4]
         self.thread_count = params[5]
-        self.target_url = ".*\.(gif|png|jpg|bmp)$"
+        self.filter_url = ".*\.(gif|png|jpg|bmp)$"
+        self.total_urlset = set()
         self.urlqueue = Queue()
 
-    def start_work(self):
+    def set_abs_dir(self, path):
+        """
+        Complete url path ,and mkdir if it not exits
+        :param path: url path
+        :return: result output path
+        """
+        file_dir = os.path.join(os.getcwd(), path)
+        if not os.path.exists(file_dir):
+            try:
+                os.mkdir(file_dir)
+            except os.error as err:
+                logging.error("mkdir result-saved dir error: %s. " % err)
+        return str(file_dir)
+
+    def set_path(self):
+        """
+        complete the result path
+        :return:
+        """
+        self.result_path = self.set_abs_dir(self.result_path)
+
+    def set_url_queue(self):
+        """
+        Set url queue
+        :return: True or False
+        """
         try:
-            sub_urls = UrlHandler.get_urls(self.urls)
-            sub_url_list = list(sub_urls)
-            for url in sub_url_list:
-                self.urlqueue.put(url)
-            print(len(sub_url_list), sub_url_list)
-            self.page_detail()
-            # logging.info('there is the page:')
-            # logging.info(urlarr)
+            self.urlqueue.put((self.urls, 0))
         except Exception as e:
             logging.error(e)
+            return False
+        return True
 
-    def page_detail(self):
-        urls = self.urlqueue.get()
-        print(urls, '子页面链接为：')
-        response = requests.get(urls)
-        soup = BeautifulSoup(response.text, 'html.parser')
-        url_list = soup.select('a')
-        for links in url_list:
-            if links.has_attr('href'):
-                print(links['href'], end=',')
+    def start_crawl_work(self):
+
+        thread_list = []
+        for i in range(self.thread_count):
+            thread = SpiderThread(self.urlqueue, self.result_path, self.maxdepth, self.interval,
+                                  self.timeout, self.filter_url, self.total_urlset)
+            thread_list.append(thread)
+            logging.info("%s start..." % thread.name)
+            thread.start()
+        for thread in thread_list:
+            thread.join()
+            logging.info("thread %s work is done " % thread.name)
+
+        self.urlqueue.join()
+        logging.info("queue is all done")
+
+        return
 

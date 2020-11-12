@@ -7,27 +7,34 @@
 """
 This main module
 """
+from urllib import parse
+
 import log
-from worker import param_parser
-from worker import SpiderWorker
+from worker.SpiderWorker import SpiderWorker
+from worker.param_parser import parm_parser
 
 
 def main():
     """
     the main method to run mini spider
     """
-    # 获取控制台输入参数
-    parm_parse = param_parser.parm_parser()
-    args = parm_parse.get_args()
-    # 初始化日志配置
-    log.init_log('./mini_spider')
+    # get input params
+    args = parm_parser.get_args()
+    # init log config
+    log.init_log('./log/mini_spider')
     if args:
-        # 读取配置文件spider.conf，获取参数
-        conf_params = parm_parse.set_config_by_file(args.conf)
-        # 通过配置文件设置爬虫初始化参数
-        spider = SpiderWorker.SpiderWorker(conf_params)
-        spider.getpages()
+        # read config file spider.conf
+        conf_params = parm_parser.set_config_by_file(args.conf)
+        # use config set up spider initial params
+        spider = SpiderWorker(conf_params)
+        # init result_path, make it complete
+        spider.set_path()
+        # init url queue
+        spider.set_url_queue()
+        # start to crawl url
+        spider.start_crawl_work()
 
+    return
 
 if __name__ == '__main__':
     main()

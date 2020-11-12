@@ -18,12 +18,12 @@ class parm_parser(object):
         config = configparser.ConfigParser()
         config.read(config_file, encoding='utf-8')
         urls = config['spider']['feedfile']  # feedfile path
-        result = config['spider']['result']  # result storage file
+        result_path = config['spider']['result']  # result storage file
         max_depth = config['spider']['max_depth']  # max scratch depth
         crawl_interval = config['spider']['crawl_interval']  # scratch interval
         crawl_timeout = config['spider']['crawl_timeout']  # scratch timeout
         thread_count = config['spider']['thread_count']  # scratch thread
-        return urls, result, max_depth, crawl_interval, crawl_timeout, thread_count
+        return urls, result_path, int(max_depth), int(crawl_interval), int(crawl_timeout), int(thread_count)
 
     @staticmethod
     def get_args():

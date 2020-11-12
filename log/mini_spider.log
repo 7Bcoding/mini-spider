@@ -1,0 +1,417 @@
+ERROR: 11-12 17:31:00: SpiderWorker.py:95 * 9228 'str' object cannot be interpreted as an integer
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 0 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 17992 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 1 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 7552 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 2 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 6220 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 3 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 15656 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 4 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 17504 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 5 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 17924 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 6 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 16896 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:87 * 17752 thread 7 start...
+ERROR: 11-12 17:34:02: SpiderThread.py:72 * 8508 Can not finish the task. job done. 'str' object has no attribute 'get'
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-1 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-2 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-3 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-4 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-5 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-6 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-7 work is done 
+INFO: 11-12 17:34:02: SpiderWorker.py:91 * 17752 thread Thread-8 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 0 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 17236 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 1 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 17276 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 2 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 6516 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 3 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 16372 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 4 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 16228 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 5 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 15724 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 6 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 16140 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:87 * 17192 thread 7 start...
+ERROR: 11-12 17:42:22: SpiderThread.py:72 * 1376 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-1 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-2 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-3 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-4 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-5 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-6 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-7 work is done 
+INFO: 11-12 17:42:22: SpiderWorker.py:91 * 17192 thread Thread-8 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 0 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 16728 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 1 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 1452 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 2 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 10872 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 3 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 4508 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 4 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 3252 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 5 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 15636 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 6 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 6868 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:87 * 6548 thread 7 start...
+ERROR: 11-12 17:45:16: SpiderThread.py:72 * 14036 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-1 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-2 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-3 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-4 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-5 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-6 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-7 work is done 
+INFO: 11-12 17:45:16: SpiderWorker.py:91 * 6548 thread Thread-8 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 0 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 8516 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 1 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 12380 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 2 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 17528 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 3 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 1660 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 4 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 16520 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 5 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 17876 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 6 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 8400 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:87 * 18324 thread 7 start...
+ERROR: 11-12 17:58:02: SpiderThread.py:72 * 14148 Can not finish the task. job done. '<' not supported between instances of 'str' and 'int'
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-1 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-2 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-3 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-4 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-5 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-6 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-7 work is done 
+INFO: 11-12 17:58:02: SpiderWorker.py:91 * 18324 thread Thread-8 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 0 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 1 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 2 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 3 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 4 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 5 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 6 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:87 * 8456 thread 7 start...
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-1 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-2 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-3 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-4 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-5 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-6 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-7 work is done 
+INFO: 11-12 18:02:00: SpiderWorker.py:91 * 8456 thread Thread-8 work is done 
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 0 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 1 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 2 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 3 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 4 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 5 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 6 start...
+INFO: 11-12 18:03:59: SpiderWorker.py:87 * 17604 thread 7 start...
+ERROR: 11-12 18:04:00: UrlHandler.py:49 * 2636 Cannot mix str and non-str arguments
+INFO: 11-12 18:04:00: SpiderWorker.py:91 * 17604 thread Thread-1 work is done 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 1780 Can not finish the task. job done. 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-2 work is done 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 18316 Can not finish the task. job done. 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 14396 Can not finish the task. job done. 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 14552 Can not finish the task. job done. 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 3432 Can not finish the task. job done. 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-3 work is done 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-4 work is done 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-5 work is done 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-6 work is done 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 16044 Can not finish the task. job done. 
+ERROR: 11-12 18:04:01: SpiderThread.py:72 * 5384 Can not finish the task. job done. 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-7 work is done 
+INFO: 11-12 18:04:01: SpiderWorker.py:91 * 17604 thread Thread-8 work is done 
+INFO: 11-12 18:04:01: SpiderWorker.py:94 * 17604 queue is all done
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 0 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 1 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 2 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 3 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 4 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 5 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 6 start...
+INFO: 11-12 18:04:53: SpiderWorker.py:87 * 11440 thread 7 start...
+ERROR: 11-12 18:04:54: UrlHandler.py:49 * 15488 Cannot mix str and non-str arguments
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 13496 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 14092 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 4744 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 4232 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 14748 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 15740 Can not finish the task. job done. 
+ERROR: 11-12 18:04:55: SpiderThread.py:72 * 16956 Can not finish the task. job done. 
+ERROR: 11-12 18:04:56: SpiderThread.py:72 * 15488 Can not finish the task. job done. 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-1 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-2 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-3 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-4 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-5 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-6 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-7 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:91 * 11440 thread Thread-8 work is done 
+INFO: 11-12 18:04:56: SpiderWorker.py:94 * 11440 queue is all done
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 0 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 1 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 2 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 3 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 4 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 5 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 6 start...
+INFO: 11-12 18:05:39: SpiderWorker.py:87 * 16432 thread 7 start...
+ERROR: 11-12 18:05:40: UrlHandler.py:49 * 12712 Cannot mix str and non-str arguments
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 8500 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 18032 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 16896 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 9280 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 17644 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 7192 Can not finish the task. job done. 
+ERROR: 11-12 18:05:41: SpiderThread.py:72 * 10816 Can not finish the task. job done. 
+ERROR: 11-12 18:05:42: SpiderThread.py:72 * 12712 Can not finish the task. job done. 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-1 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-2 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-3 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-4 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-5 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-6 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-7 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:91 * 16432 thread Thread-8 work is done 
+INFO: 11-12 18:05:42: SpiderWorker.py:94 * 16432 queue is all done
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 0 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 1 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 2 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 3 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 4 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 5 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 6 start...
+INFO: 11-12 18:09:25: SpiderWorker.py:87 * 16264 thread 7 start...
+INFO: 11-12 18:10:00: SpiderWorker.py:91 * 16264 thread Thread-1 work is done 
+INFO: 11-12 18:10:00: SpiderWorker.py:91 * 16264 thread Thread-2 work is done 
+INFO: 11-12 18:10:00: SpiderWorker.py:91 * 16264 thread Thread-3 work is done 
+INFO: 11-12 18:10:12: SpiderWorker.py:91 * 16264 thread Thread-4 work is done 
+INFO: 11-12 18:10:34: SpiderWorker.py:91 * 16264 thread Thread-5 work is done 
+INFO: 11-12 18:10:34: SpiderWorker.py:91 * 16264 thread Thread-6 work is done 
+INFO: 11-12 18:10:34: SpiderWorker.py:91 * 16264 thread Thread-7 work is done 
+INFO: 11-12 18:10:34: SpiderWorker.py:91 * 16264 thread Thread-8 work is done 
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 0 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 1 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 2 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 3 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 4 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 5 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 6 start...
+INFO: 11-12 18:11:01: SpiderWorker.py:87 * 17364 thread 7 start...
+INFO: 11-12 18:11:09: UrlHandler.py:135 * 7276 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+INFO: 11-12 18:11:12: UrlHandler.py:135 * 8516 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+INFO: 11-12 18:11:35: UrlHandler.py:135 * 6248 download url..: https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png
+INFO: 11-12 18:11:35: UrlHandler.py:135 * 3016 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114819756-1016503242.png
+INFO: 11-12 18:11:38: UrlHandler.py:135 * 7276 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114900846-1713897379.png
+INFO: 11-12 18:11:40: UrlHandler.py:135 * 11424 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114843273-1830554344.png
+INFO: 11-12 18:11:41: UrlHandler.py:135 * 15944 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114950727-414993749.png
+INFO: 11-12 18:11:43: UrlHandler.py:135 * 2268 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114718749-1725353898.png
+INFO: 11-12 18:11:45: UrlHandler.py:135 * 7276 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114912076-366793398.png
+INFO: 11-12 18:11:45: UrlHandler.py:135 * 8516 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114927784-181508945.png
+INFO: 11-12 18:11:53: UrlHandler.py:135 * 11424 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114829322-927181287.png
+INFO: 11-12 18:11:54: UrlHandler.py:135 * 6248 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114937974-1082184208.png
+INFO: 11-12 18:11:59: UrlHandler.py:135 * 15944 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114739918-949030815.png
+INFO: 11-12 18:12:00: UrlHandler.py:135 * 8336 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114918976-809611856.png
+ERROR: 11-12 18:12:33: UrlHandler.py:49 * 11424 HTTPConnectionPool(host='www.beian.miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026AEE855160>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO: 11-12 18:12:34: UrlHandler.py:135 * 2268 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201108112112124-811421304.jpg
+INFO: 11-12 18:12:39: UrlHandler.py:135 * 11424 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190704111311847-319389079.png
+INFO: 11-12 18:12:43: UrlHandler.py:135 * 6248 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190704111321098-1739080645.png
+INFO: 11-12 18:12:43: UrlHandler.py:135 * 3016 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190704111340122-677799039.png
+INFO: 11-12 18:12:46: UrlHandler.py:135 * 8516 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190704111257300-260315012.png
+INFO: 11-12 18:12:48: UrlHandler.py:135 * 15944 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190704111348940-236559782.png
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 0 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 1 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 2 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 3 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 4 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 5 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 6 start...
+INFO: 11-12 18:22:38: SpiderWorker.py:87 * 16244 thread 7 start...
+INFO: 11-12 18:22:46: UrlHandler.py:160 * 13880 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+INFO: 11-12 18:22:47: UrlHandler.py:160 * 14888 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+INFO: 11-12 18:23:03: UrlHandler.py:160 * 12180 download url..: http://common.cnblogs.com/images/ico_kb.gif
+INFO: 11-12 18:23:04: UrlHandler.py:160 * 12180 download url..: http://common.cnblogs.com/images/ico_blog.gif
+INFO: 11-12 18:23:04: UrlHandler.py:160 * 15648 download url..: http://common.cnblogs.com/images/logo/logo20170227.png
+INFO: 11-12 18:23:05: UrlHandler.py:160 * 14760 download url..: http://common.cnblogs.com/images/ico_news.gif
+INFO: 11-12 18:23:08: UrlHandler.py:160 * 18052 download url..: http://common.cnblogs.com/images/ico_bookmark.gif
+INFO: 11-12 18:23:09: UrlHandler.py:160 * 15648 download url..: http://common.cnblogs.com/images/ico_ing.gif
+INFO: 11-12 18:23:10: UrlHandler.py:160 * 1752 download url..: http://common.cnblogs.com/images/ico_top.gif
+INFO: 11-12 18:23:11: UrlHandler.py:160 * 7288 download url..: http://common.cnblogs.com/images/ico_question.gif
+INFO: 11-12 18:23:11: UrlHandler.py:160 * 18052 download url..: http://common.cnblogs.com/images/ico_job.gif
+INFO: 11-12 18:23:11: UrlHandler.py:160 * 12180 download url..: http://common.cnblogs.com/images/ico_group.gif
+INFO: 11-12 18:23:17: UrlHandler.py:160 * 14888 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114912076-366793398.png
+INFO: 11-12 18:23:19: UrlHandler.py:160 * 14760 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114843273-1830554344.png
+INFO: 11-12 18:23:20: UrlHandler.py:160 * 18052 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114937974-1082184208.png
+INFO: 11-12 18:23:22: UrlHandler.py:160 * 15648 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114918976-809611856.png
+INFO: 11-12 18:23:22: UrlHandler.py:160 * 12180 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114718749-1725353898.png
+INFO: 11-12 18:23:23: UrlHandler.py:160 * 7288 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114739918-949030815.png
+INFO: 11-12 18:23:25: UrlHandler.py:160 * 1752 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114950727-414993749.png
+INFO: 11-12 18:23:27: UrlHandler.py:160 * 13880 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114829322-927181287.png
+INFO: 11-12 18:23:40: UrlHandler.py:160 * 14888 download url..: https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png
+INFO: 11-12 18:23:43: UrlHandler.py:160 * 18052 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114900846-1713897379.png
+INFO: 11-12 18:23:43: UrlHandler.py:160 * 7288 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114927784-181508945.png
+INFO: 11-12 18:23:43: UrlHandler.py:160 * 15648 download url..: https://img2018.cnblogs.com/blog/431521/201905/431521-20190527114819756-1016503242.png
+INFO: 11-12 18:23:48: UrlHandler.py:160 * 1752 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190729132325900-668063743.png
+INFO: 11-12 18:23:51: UrlHandler.py:160 * 13880 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190729132254540-1439223142.png
+INFO: 11-12 18:23:53: UrlHandler.py:160 * 13880 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190729132240176-247020885.png
+INFO: 11-12 18:23:57: UrlHandler.py:160 * 1752 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190729132302694-2002809906.png
+INFO: 11-12 18:23:57: UrlHandler.py:160 * 13880 download url..: https://img2018.cnblogs.com/blog/431521/201907/431521-20190729132312088-701760480.png
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 0 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 1 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 2 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 3 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 4 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 5 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 6 start...
+INFO: 11-12 18:27:40: SpiderWorker.py:87 * 16420 thread 7 start...
+INFO: 11-12 18:27:45: UrlHandler.py:160 * 14488 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+ERROR: 11-12 18:27:45: UrlHandler.py:164 * 14488 download url https://www.cnblogs.com/skins/custom/images/logo.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:27:45: UrlHandler.py:160 * 15056 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+ERROR: 11-12 18:27:45: UrlHandler.py:164 * 15056 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+ERROR: 11-12 18:28:13: UrlHandler.py:49 * 9920 HTTPConnectionPool(host='www.beian.miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ED98B3A3A0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO: 11-12 18:28:16: UrlHandler.py:160 * 15056 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201108112112124-811421304.jpg
+ERROR: 11-12 18:28:16: UrlHandler.py:164 * 15056 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201108112112124-811421304.jpg fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:22: UrlHandler.py:160 * 15056 download url..: https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png
+ERROR: 11-12 18:28:22: UrlHandler.py:164 * 15056 download url https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:33: UrlHandler.py:160 * 14488 download url..: https://img2018.cnblogs.com/blog/431521/201906/431521-20190603105337542-1918784356.png
+ERROR: 11-12 18:28:33: UrlHandler.py:164 * 14488 download url https://img2018.cnblogs.com/blog/431521/201906/431521-20190603105337542-1918784356.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:39: UrlHandler.py:160 * 16280 download url..: https://pic.cnblogs.com/face/830454/20201101110547.png
+ERROR: 11-12 18:28:39: UrlHandler.py:164 * 16280 download url https://pic.cnblogs.com/face/830454/20201101110547.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+ERROR: 11-12 18:28:40: UrlHandler.py:49 * 17632 HTTPSConnectionPool(host='zh.wikipedia.org', port=443): Max retries exceeded with url: /wiki/Netlink (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x000001ED9917F610>, 'Connection to zh.wikipedia.org timed out. (connect timeout=10)'))
+INFO: 11-12 18:28:40: UrlHandler.py:160 * 12160 download url..: https://pic.cnblogs.com/face/1590449/20200215122615.png
+ERROR: 11-12 18:28:40: UrlHandler.py:164 * 12160 download url https://pic.cnblogs.com/face/1590449/20200215122615.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:43: UrlHandler.py:160 * 17632 download url..: https://pic.cnblogs.com/face/1468246/20180817230353.png
+ERROR: 11-12 18:28:43: UrlHandler.py:164 * 17632 download url https://pic.cnblogs.com/face/1468246/20180817230353.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:46: UrlHandler.py:160 * 12160 download url..: https://pic.cnblogs.com/face/2177591/20201103105415.png
+ERROR: 11-12 18:28:46: UrlHandler.py:164 * 12160 download url https://pic.cnblogs.com/face/2177591/20201103105415.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:47: UrlHandler.py:160 * 17632 download url..: http://common.cnblogs.com/images/cnnic.png
+ERROR: 11-12 18:28:47: UrlHandler.py:164 * 17632 download url http://common.cnblogs.com/images/cnnic.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:47: UrlHandler.py:160 * 18276 download url..: https://pic.cnblogs.com/face/472002/20181006220801.png
+ERROR: 11-12 18:28:47: UrlHandler.py:164 * 18276 download url https://pic.cnblogs.com/face/472002/20181006220801.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:47: UrlHandler.py:160 * 15056 download url..: https://pic.cnblogs.com/face/1218593/20200514095525.png
+ERROR: 11-12 18:28:47: UrlHandler.py:164 * 15056 download url https://pic.cnblogs.com/face/1218593/20200514095525.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:28:58: UrlHandler.py:160 * 9920 download url..: https://pic.cnblogs.com/face/1077681/20201015163814.png
+ERROR: 11-12 18:28:58: UrlHandler.py:164 * 9920 download url https://pic.cnblogs.com/face/1077681/20201015163814.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:01: UrlHandler.py:160 * 15056 download url..: https://pic.cnblogs.com/face/2186635/20201019203913.png
+ERROR: 11-12 18:29:01: UrlHandler.py:164 * 15056 download url https://pic.cnblogs.com/face/2186635/20201019203913.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:03: UrlHandler.py:160 * 17412 download url..: http://common.cnblogs.com/images/ghs.png
+ERROR: 11-12 18:29:03: UrlHandler.py:164 * 17412 download url http://common.cnblogs.com/images/ghs.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:05: UrlHandler.py:160 * 9920 download url..: https://pic.cnblogs.com/face/1543450/20200424151206.png
+ERROR: 11-12 18:29:05: UrlHandler.py:164 * 9920 download url https://pic.cnblogs.com/face/1543450/20200424151206.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:06: UrlHandler.py:160 * 15056 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201110200531630-9844.png
+ERROR: 11-12 18:29:06: UrlHandler.py:164 * 15056 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201110200531630-9844.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+ERROR: 11-12 18:29:07: UrlHandler.py:49 * 14488 ('Connection aborted.', ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None))
+INFO: 11-12 18:29:09: UrlHandler.py:160 * 15056 download url..: https://pic.cnblogs.com/face/1308525/20171228213219.png
+ERROR: 11-12 18:29:09: UrlHandler.py:164 * 15056 download url https://pic.cnblogs.com/face/1308525/20171228213219.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:09: UrlHandler.py:160 * 16280 download url..: https://pic.cnblogs.com/face/1330501/20200909094401.png
+ERROR: 11-12 18:29:09: UrlHandler.py:164 * 16280 download url https://pic.cnblogs.com/face/1330501/20200909094401.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:10: UrlHandler.py:160 * 12160 download url..: https://pic.cnblogs.com/face/585973/20170424120720.png
+ERROR: 11-12 18:29:10: UrlHandler.py:164 * 12160 download url https://pic.cnblogs.com/face/585973/20170424120720.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:10: UrlHandler.py:160 * 15056 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104175410099-1318590500.png
+ERROR: 11-12 18:29:10: UrlHandler.py:164 * 15056 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201104175410099-1318590500.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:12: UrlHandler.py:160 * 17412 download url..: https://pic.cnblogs.com/face/2181730/20201014135449.png
+ERROR: 11-12 18:29:12: UrlHandler.py:164 * 17412 download url https://pic.cnblogs.com/face/2181730/20201014135449.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:14: UrlHandler.py:160 * 17412 download url..: https://pic.cnblogs.com/face/2198756/20201031101758.png
+ERROR: 11-12 18:29:14: UrlHandler.py:164 * 17412 download url https://pic.cnblogs.com/face/2198756/20201031101758.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+ERROR: 11-12 18:29:14: UrlHandler.py:49 * 9920 HTTPConnectionPool(host='www.beian.miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001ED99BDF070>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO: 11-12 18:29:15: UrlHandler.py:160 * 17632 download url..: https://pic.cnblogs.com/face/u39469.jpg
+ERROR: 11-12 18:29:15: UrlHandler.py:164 * 17632 download url https://pic.cnblogs.com/face/u39469.jpg fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:16: UrlHandler.py:160 * 12160 download url..: https://pic.cnblogs.com/face/1018218/20200921102347.png
+ERROR: 11-12 18:29:16: UrlHandler.py:164 * 12160 download url https://pic.cnblogs.com/face/1018218/20200921102347.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:17: UrlHandler.py:160 * 18276 download url..: https://pic.cnblogs.com/face/435688/20200819103811.png
+ERROR: 11-12 18:29:17: UrlHandler.py:164 * 18276 download url https://pic.cnblogs.com/face/435688/20200819103811.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:18: UrlHandler.py:160 * 18276 download url..: http://common.cnblogs.com/images/home/ico_question.gif
+ERROR: 11-12 18:29:18: UrlHandler.py:164 * 18276 download url http://common.cnblogs.com/images/home/ico_question.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:20: UrlHandler.py:160 * 12160 download url..: http://common.cnblogs.com/images/home/ico_kb.gif
+ERROR: 11-12 18:29:20: UrlHandler.py:164 * 12160 download url http://common.cnblogs.com/images/home/ico_kb.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:21: UrlHandler.py:160 * 17632 download url..: http://common.cnblogs.com/images/home/ico_bookmark.gif
+ERROR: 11-12 18:29:21: UrlHandler.py:164 * 17632 download url http://common.cnblogs.com/images/home/ico_bookmark.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:24: UrlHandler.py:160 * 17412 download url..: http://common.cnblogs.com/images/home/ico_blog.gif
+ERROR: 11-12 18:29:24: UrlHandler.py:164 * 17412 download url http://common.cnblogs.com/images/home/ico_blog.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:25: UrlHandler.py:160 * 17412 download url..: http://common.cnblogs.com/images/logo/logo20170227.png
+ERROR: 11-12 18:29:25: UrlHandler.py:164 * 17412 download url http://common.cnblogs.com/images/logo/logo20170227.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:25: UrlHandler.py:160 * 15056 download url..: http://common.cnblogs.com/images/home/ico_ing.gif
+ERROR: 11-12 18:29:25: UrlHandler.py:164 * 15056 download url http://common.cnblogs.com/images/home/ico_ing.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:25: UrlHandler.py:160 * 9920 download url..: http://common.cnblogs.com/images/home/ico_group.gif
+ERROR: 11-12 18:29:25: UrlHandler.py:164 * 9920 download url http://common.cnblogs.com/images/home/ico_group.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:27: UrlHandler.py:160 * 12160 download url..: http://common.cnblogs.com/images/home/ico_job.gif
+ERROR: 11-12 18:29:27: UrlHandler.py:164 * 12160 download url http://common.cnblogs.com/images/home/ico_job.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:28: UrlHandler.py:160 * 12160 download url..: http://common.cnblogs.com/images/home/ico_news.gif
+ERROR: 11-12 18:29:28: UrlHandler.py:164 * 12160 download url http://common.cnblogs.com/images/home/ico_news.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:29:29: UrlHandler.py:160 * 17412 download url..: http://common.cnblogs.com/images/ico_top.gif
+ERROR: 11-12 18:29:29: UrlHandler.py:164 * 17412 download url http://common.cnblogs.com/images/ico_top.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\./result.data' 
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 0 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 1 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 2 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 3 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 4 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 5 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 6 start...
+INFO: 11-12 18:35:44: SpiderWorker.py:87 * 17364 thread 7 start...
+INFO: 11-12 18:35:52: UrlHandler.py:159 * 9904 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+ERROR: 11-12 18:35:52: UrlHandler.py:163 * 9904 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:35:54: UrlHandler.py:159 * 15372 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+ERROR: 11-12 18:35:54: UrlHandler.py:163 * 15372 download url https://www.cnblogs.com/skins/custom/images/logo.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:09: UrlHandler.py:159 * 11560 download url..: http://common.cnblogs.com/images/ico_ing.gif
+ERROR: 11-12 18:36:09: UrlHandler.py:163 * 11560 download url http://common.cnblogs.com/images/ico_ing.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:10: UrlHandler.py:159 * 17412 download url..: http://common.cnblogs.com/images/ico_question.gif
+ERROR: 11-12 18:36:10: UrlHandler.py:163 * 17412 download url http://common.cnblogs.com/images/ico_question.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:12: UrlHandler.py:159 * 9904 download url..: http://common.cnblogs.com/images/ico_group.gif
+ERROR: 11-12 18:36:12: UrlHandler.py:163 * 9904 download url http://common.cnblogs.com/images/ico_group.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:13: UrlHandler.py:159 * 11384 download url..: http://common.cnblogs.com/images/ico_kb.gif
+ERROR: 11-12 18:36:13: UrlHandler.py:163 * 11384 download url http://common.cnblogs.com/images/ico_kb.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:13: UrlHandler.py:159 * 11560 download url..: http://common.cnblogs.com/images/logo/logo20170227.png
+ERROR: 11-12 18:36:13: UrlHandler.py:163 * 11560 download url http://common.cnblogs.com/images/logo/logo20170227.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:15: UrlHandler.py:159 * 17412 download url..: http://common.cnblogs.com/images/ico_job.gif
+ERROR: 11-12 18:36:15: UrlHandler.py:163 * 17412 download url http://common.cnblogs.com/images/ico_job.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:15: UrlHandler.py:159 * 14488 download url..: http://common.cnblogs.com/images/ico_top.gif
+ERROR: 11-12 18:36:15: UrlHandler.py:163 * 14488 download url http://common.cnblogs.com/images/ico_top.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:16: UrlHandler.py:159 * 11384 download url..: http://common.cnblogs.com/images/ico_news.gif
+ERROR: 11-12 18:36:16: UrlHandler.py:163 * 11384 download url http://common.cnblogs.com/images/ico_news.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:17: UrlHandler.py:159 * 12160 download url..: http://common.cnblogs.com/images/ico_bookmark.gif
+ERROR: 11-12 18:36:17: UrlHandler.py:163 * 12160 download url http://common.cnblogs.com/images/ico_bookmark.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:17: UrlHandler.py:159 * 15372 download url..: http://common.cnblogs.com/images/ico_blog.gif
+ERROR: 11-12 18:36:17: UrlHandler.py:163 * 15372 download url http://common.cnblogs.com/images/ico_blog.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:36:27: UrlHandler.py:159 * 15372 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201108112112124-811421304.jpg
+ERROR: 11-12 18:36:27: UrlHandler.py:163 * 15372 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201108112112124-811421304.jpg fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+ERROR: 11-12 18:36:32: UrlHandler.py:49 * 14488 HTTPConnectionPool(host='www.beian.miit.gov.cn', port=80): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001770E159490>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-1 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-2 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-3 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-4 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-5 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-6 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-7 start...
+INFO: 11-12 18:44:06: SpiderWorker.py:87 * 10104 Thread-8 start...
+INFO: 11-12 18:44:14: UrlHandler.py:159 * 11672 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+ERROR: 11-12 18:44:14: UrlHandler.py:163 * 11672 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 18:44:14: UrlHandler.py:159 * 16228 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+ERROR: 11-12 18:44:14: UrlHandler.py:163 * 16228 download url https://www.cnblogs.com/skins/custom/images/logo.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.data' 
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-1 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-2 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-3 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-4 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-5 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-6 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-7 start...
+INFO: 11-12 19:03:11: SpiderWorker.py:70 * 7372 Thread-8 start...
+INFO: 11-12 19:03:16: UrlHandler.py:159 * 11232 download url..: https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png
+ERROR: 11-12 19:03:16: UrlHandler.py:163 * 11232 download url https://img2020.cnblogs.com/blog/35695/202011/35695-20201104135303888-13496776.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.txt' 
+INFO: 11-12 19:03:22: UrlHandler.py:159 * 11232 download url..: https://www.cnblogs.com/skins/custom/images/logo.gif
+ERROR: 11-12 19:03:22: UrlHandler.py:163 * 11232 download url https://www.cnblogs.com/skins/custom/images/logo.gif fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.txt' 
+INFO: 11-12 19:03:48: UrlHandler.py:159 * 1040 download url..: https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png
+ERROR: 11-12 19:03:48: UrlHandler.py:163 * 1040 download url https://img2018.cnblogs.com/blog/431521/201904/431521-20190415111037844-1058636985.png fail: [Errno 13] Permission denied: 'D:\\Python\\Mini-spider\\result.txt' 

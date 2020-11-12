@@ -6,14 +6,14 @@
 ################################################################################
 
 import os
+import re
 import urllib
 import urllib3
-from urllib import parse
+from urllib import parse, request
 import logging
 import chardet
 from bs4 import BeautifulSoup
 import requests
-from worker import SpiderWorker
 
 
 class UrlHandler(object):
@@ -24,7 +24,7 @@ class UrlHandler(object):
     @staticmethod
     def is_url(url):
         """
-        ignore url starts with javascipt
+        Ignore url starts with Javascipt
         :param url:
         :return:True False
         """
@@ -33,7 +33,7 @@ class UrlHandler(object):
         return True
 
     @staticmethod
-    def get_content(url):
+    def get_content(url, timeout=10):
         """
         Get html contents
         :param url: the target url
@@ -41,23 +41,20 @@ class UrlHandler(object):
         :return: content of html page, return None when error happens
         """
         try:
-            response = requests.get(url)
+            response = requests.get(url, timeout=timeout)
         except requests.HTTPError as e:
             logging.error("url %s request error : %s" % (url, e))
             return None
-
-        try:
-            content = response.text
         except Exception as e:
-            logging.error("response content error : %s" % e)
+            logging.error(e)
             return None
 
-        return content
+        return UrlHandler.decode_html(response.content)
 
     @staticmethod
     def decode_html(content):
         """
-        decode content
+        Decode content
         :param content: the origin content
         :return: returen decoded content. Error return None
         """
@@ -76,7 +73,7 @@ class UrlHandler(object):
     @staticmethod
     def get_urls(url):
         """
-        get the suburls of this url
+        Get the suburls of this url
         :param url: origin url
         :return:the set of sub_urls
         """
@@ -116,3 +113,53 @@ class UrlHandler(object):
             url = parse.urljoin(base_url, url)
 
         return url
+
+    @staticmethod
+    def download_image_file(result_dir, url):
+        """
+        download image as file, save in result dir
+        :param result_dir: base_path
+        :param url: download url
+        :return: succeed True, fail False
+        """
+
+        if not os.path.exists(result_dir):
+            try:
+                os.mkdir(result_dir)
+            except os.error as err:
+                logging.error("download to path, mkdir errror: %s" % err)
+
+        try:
+            path = os.path.join(result_dir, url.replace('/', '_').replace(':', '_')
+                                .replace('?', '_').replace('\\', '_'))
+            logging.info("download url..: %s" % url)
+            request.urlretrieve(url, path, None)
+        except Exception as e:
+            logging.error("download url %s fail: %s " % (url, e))
+            return False
+        return True
+
+    @staticmethod
+    def download_url(result_file, url):
+        """
+        download html, file to local file
+        :param result_file: base_path
+        :param url: download url
+        :return: succeed True, fail False
+        """
+
+        # if not os.path.exists(result_file):
+        #     try:
+        #         os.mknod(result_file)
+        #     except os.error as err:
+        #         logging.error("download to path, mkdir errror: %s" % err)
+
+        try:
+            path = os.path.join(os.getcwd(), result_file)
+            logging.info("download url..: %s" % url)
+            with open(path, 'a') as f:
+                f.write(url + '\n')
+        except Exception as e:
+            logging.error("download url %s fail: %s " % (url, e))
+            return False
+        return True

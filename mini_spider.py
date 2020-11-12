@@ -18,17 +18,23 @@ def main():
     """
     the main method to run mini spider
     """
-    # 获取控制台输入参数
+    # get input params
     args = parm_parser.get_args()
-    # 初始化日志配置
-    log.init_log('./mini_spider')
+    # init log config
+    log.init_log('./log/mini_spider')
     if args:
-        # 读取配置文件spider.conf，获取参数
+        # read config file spider.conf
         conf_params = parm_parser.set_config_by_file(args.conf)
-        # 通过配置文件设置爬虫初始化参数
+        # use config set up spider initial params
         spider = SpiderWorker(conf_params)
-        spider.start_work()
+        # init result_path, make it complete
+        spider.set_path()
+        # init url queue
+        spider.set_url_queue()
+        # start to crawl url
+        spider.start_crawl_work()
 
+    return
 
 if __name__ == '__main__':
     main()
