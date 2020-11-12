@@ -18,7 +18,7 @@ import requests
 
 class UrlHandler(object):
     """
-    public url tools for handle url
+    Public url tools for handle url
     """
 
     @staticmethod
@@ -26,7 +26,7 @@ class UrlHandler(object):
         """
         Ignore url starts with Javascipt
         :param url:
-        :return:True False
+        :return: True or False
         """
         if url.startswith("javascript"):
             return False
@@ -54,9 +54,9 @@ class UrlHandler(object):
     @staticmethod
     def decode_html(content):
         """
-        Decode content
-        :param content: the origin content
-        :return: returen decoded content. Error return None
+         Decode html content
+        :param content: origin html content
+        :return: returen decoded html content. Error return None
         """
         encoding = chardet.detect(content)['encoding']
         if encoding == 'GB2312':
@@ -73,9 +73,9 @@ class UrlHandler(object):
     @staticmethod
     def get_urls(url):
         """
-        Get the suburls of this url
+        Get all suburls of this url
         :param url: origin url
-        :return:the set of sub_urls
+        :return: the set of sub_urls
         """
         urlset = set()
         if not UrlHandler.is_url(url):
@@ -105,7 +105,7 @@ class UrlHandler(object):
         Parse url to make it complete and standard
         :param url: the current url
         :param base_url: the base url
-        :return:completed url
+        :return: completed url
         """
         if url.startswith('http') or url.startswith('//'):
             url = parse.urlparse(url, scheme='http').geturl()
@@ -117,7 +117,7 @@ class UrlHandler(object):
     @staticmethod
     def download_image_file(result_dir, url):
         """
-        download image as file, save in result dir
+        Download image as file, save in result dir
         :param result_dir: base_path
         :param url: download url
         :return: succeed True, fail False

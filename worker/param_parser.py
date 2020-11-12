@@ -17,6 +17,11 @@ class parm_parser(object):
 
     @staticmethod
     def set_config_by_file(config_file):
+        """
+        Set spiderworker params by config file
+        :param : config file
+        :return: True, False
+        """
         config = configparser.ConfigParser()
         config.read(config_file, encoding='utf-8')
         urls = config['spider']['feedfile']  # feedfile path
@@ -29,6 +34,10 @@ class parm_parser(object):
 
     @staticmethod
     def get_args():
+        """
+        Get console args and parse
+        :return: nothing
+        """
         try:
             parser = argparse.ArgumentParser(prog='mini_spider',
                                              usage='minispider using method',
@@ -47,7 +56,7 @@ class parm_parser(object):
     @staticmethod
     def version(self):
         """
-        print version
+        Print mini spider version
         """
         print("mini_spider version 1.0.0")
 

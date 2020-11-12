@@ -43,7 +43,7 @@ class SpiderWorker(object):
 
     def set_path(self):
         """
-        complete the result path
+        Complete the path
         :return:
         """
         self.result_path = self.set_abs_dir(self.result_path)
@@ -61,7 +61,10 @@ class SpiderWorker(object):
         return True
 
     def start_crawl_work(self):
-
+        """
+        Start to work
+        :return: nothing
+        """
         thread_list = []
         for i in range(self.thread_count):
             thread = SpiderThread(self.urlqueue, self.result_path, self.maxdepth, self.interval,

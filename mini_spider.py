@@ -16,7 +16,7 @@ from worker.param_parser import parm_parser
 
 def main():
     """
-    the main method to run mini spider
+    Main method to run mini spider
     """
     # get input params
     args = parm_parser.get_args()

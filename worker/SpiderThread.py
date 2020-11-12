@@ -19,7 +19,7 @@ from worker.UrlHandler import UrlHandler
 
 class SpiderThread(threading.Thread):
     """
-    This module provide multi thread for mini spider
+    Provide multi thread for mini spider
     """
 
     def __init__(self, urlqueue, result_path, max_depth, interval, timeout, filter_url, total_urlset):
@@ -35,8 +35,8 @@ class SpiderThread(threading.Thread):
 
     def can_download(self, url):
         """
-        judge whether the url can be download. write your download rules here.
-        :param url: the url
+        Judge whether the url can be download. write your download rules here.
+        :param url: target url
         :return: True, False
         """
         if not UrlHandler.is_url(url):
@@ -58,7 +58,7 @@ class SpiderThread(threading.Thread):
     def run(self):
         """
         Run crawling thread
-        Get  task from queue and add sub url into queue, crawling page strategy -- BFS.
+        Get task from queue and add sub url into queue, crawling page strategy -- BFS.
         :return: no return
         """
         while True:
