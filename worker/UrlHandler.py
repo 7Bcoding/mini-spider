@@ -163,3 +163,4 @@ class UrlHandler(object):
             logging.error("download url %s fail: %s " % (url, e))
             return False
         return True
+
