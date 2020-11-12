@@ -94,14 +94,3 @@ class SpiderThread(threading.Thread):
 
             for suburl in suburls:
                 self.urlqueue.put((suburl, suburl_level))
-
-
-
-
-
-
-
-
-
-
-
