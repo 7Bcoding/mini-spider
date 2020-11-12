@@ -37,7 +37,6 @@ class parm_parser(object):
             logging.error("get option error : %s." % e)
             return
         args = parser.parse_args()
-        print(args)
         if args.version:
             parm_parser.version()
         if args.conf:

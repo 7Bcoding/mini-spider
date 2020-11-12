@@ -1,3 +1,10 @@
+# /usr/bin/python
+################################################################################
+#
+# Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
+#
+################################################################################
+
 import os
 import urllib
 import urllib3
@@ -26,7 +33,7 @@ class UrlHandler(object):
         return True
 
     @staticmethod
-    def get_content(url, timeout=10):
+    def get_content(url):
         """
         Get html contents
         :param url: the target url
@@ -83,16 +90,29 @@ class UrlHandler(object):
 
         tag_list = ['img', 'a', 'style', 'script']
         linklist = []
+        for tag in tag_list:
+            linklist.extend(BeautifulSoup(content).find_all(tag))
 
-        # for tag in tag_list:
-        #     linklist.extend(BeautifulSoup(content).find_all(tag))
-
-        linklist.extend(BeautifulSoup(content, 'html.parser').select('a'))
-
+        # get url has attr 'src' and 'href'
         for link in linklist:
-            # if link.has_attr('src'):
-            #     urlset.add(link)
+            if link.has_attr('src'):
+                urlset.add(UrlHandler.parse_url(link['src'], url))
             if link.has_attr('href'):
-                urlset.add(link)
+                urlset.add(UrlHandler.parse_url(link['href'], url))
 
         return urlset
+
+    @staticmethod
+    def parse_url(url, base_url):
+        """
+        Parse url to make it complete and standard
+        :param url: the current url
+        :param base_url: the base url
+        :return:completed url
+        """
+        if url.startswith('http') or url.startswith('//'):
+            url = parse.urlparse(url, scheme='http').geturl()
+        else:
+            url = parse.urljoin(base_url, url)
+
+        return url

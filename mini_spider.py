@@ -7,6 +7,8 @@
 """
 This main module
 """
+from urllib import parse
+
 import log
 from worker.SpiderWorker import SpiderWorker
 from worker.param_parser import parm_parser
@@ -30,3 +32,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+

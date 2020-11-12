@@ -27,13 +27,12 @@ class SpiderWorker(object):
         self.urlqueue = Queue()
 
     def start_work(self):
-        url_arr = []  # 首页链接列表
         try:
-            content = UrlHandler.get_content(self.urls)
             sub_urls = UrlHandler.get_urls(self.urls)
-            for url in sub_urls:
+            sub_url_list = list(sub_urls)
+            for url in sub_url_list:
                 self.urlqueue.put(url)
-            print(len(sub_urls), sub_urls)
+            print(len(sub_url_list), sub_url_list)
             self.page_detail()
             # logging.info('there is the page:')
             # logging.info(urlarr)
