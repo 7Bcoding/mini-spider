@@ -11,7 +11,7 @@ author cenquanyu(com@baidu.com)
 import os
 from queue import Queue
 import logging
-from worker import SpiderThread
+from worker.SpiderThread import SpiderThread
 
 
 class SpiderWorker(object):
@@ -67,7 +67,7 @@ class SpiderWorker(object):
         """
         thread_list = []
         for i in range(self.thread_count):
-            thread = SpiderThread.SpiderThread(self.urlqueue, self.result_path, self.maxdepth, self.interval,
+            thread = SpiderThread(self.urlqueue, self.result_path, self.maxdepth, self.interval,
                                   self.timeout, self.filter_url, self.total_urlset)
             thread_list.append(thread)
             logging.info("%s start..." % thread.name)
