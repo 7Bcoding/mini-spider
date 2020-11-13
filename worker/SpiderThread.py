@@ -14,7 +14,7 @@ import logging
 import re
 import time
 import threading
-from worker.UrlHandler import UrlHandler
+from worker import UrlHandler
 
 
 class SpiderThread(threading.Thread):
@@ -39,7 +39,7 @@ class SpiderThread(threading.Thread):
         :param url: target url
         :return: True, False
         """
-        if not UrlHandler.is_url(url):
+        if not UrlHandler.UrlHandler.is_url(url):
             return False
         try:
             # Regular expression matching image URL
@@ -68,7 +68,6 @@ class SpiderThread(threading.Thread):
             except Exception as e:
                 logging.error('Can not finish the task. job done. %s' % e)
                 break
-
             # print url is None
             self.urlqueue.task_done()
             # sleep interval
@@ -76,18 +75,17 @@ class SpiderThread(threading.Thread):
 
             # judge if url can be download
             if self.can_download(url):
-                UrlHandler.download_url(self.result_path, url)
+                UrlHandler.UrlHandler.download_url(self.result_path, url)
+            # put a lock on add url to total url set
             self.lock.acquire()
             self.total_urlset.add(url)
             self.lock.release()
 
-            suburls = UrlHandler.get_urls(url)
-
+            # get the sub urls from url
+            suburls = UrlHandler.UrlHandler.get_urls(url)
             suburl_level = level + 1
-
             # if sub url level larger than max_depth, stop crawling page deeper
             if suburl_level > self.max_depth:
                 continue
-
             for suburl in suburls:
                 self.urlqueue.put((suburl, suburl_level))
