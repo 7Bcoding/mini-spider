@@ -23,7 +23,7 @@ class SpiderWorker(object):
         self.interval = params[3]
         self.timeout = params[4]
         self.thread_count = params[5]
-        self.filter_url = ".*\.(gif|png|jpg|bmp)$"
+        self.filter_url = params[6]
         self.total_urlset = set()
         self.urlqueue = Queue()
 

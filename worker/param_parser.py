@@ -30,7 +30,8 @@ class parm_parser(object):
         crawl_interval = config['spider']['crawl_interval']  # scratch interval
         crawl_timeout = config['spider']['crawl_timeout']  # scratch timeout
         thread_count = config['spider']['thread_count']  # scratch thread
-        return urls, result_path, int(max_depth), int(crawl_interval), int(crawl_timeout), int(thread_count)
+        filter_url = config['spider']['filter_url']
+        return urls, result_path, int(max_depth), int(crawl_interval), int(crawl_timeout), int(thread_count), filter_url
 
     @staticmethod
     def get_args():
