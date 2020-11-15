@@ -1,5 +1,4 @@
-# -*- coding:utf-8 -*-
-# !/usr/bin/env python
+#!/usr/bin/env python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
@@ -7,7 +6,9 @@
 ################################################################################
 """
 This module is threading module, it is used to enable multithreading and multi line processing of requests
-author cenquanyu@baidu.com
+@Time    : 2020/11/09
+@File    : SpiderThread.py
+@Author  : cenquanyu@baidu.com
 """
 
 import logging

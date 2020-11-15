@@ -1,12 +1,14 @@
-# /usr/bin/python
+#!/usr/bin/env python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
 #
 ################################################################################
 """
-This is main module
-author cenquanyu(com@baidu.com)
+This module is the main module
+@Time    : 2020/11/09
+@File    : mini_spider.py
+@Author  : cenquanyu@baidu.com
 """
 
 import log

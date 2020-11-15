@@ -1,4 +1,4 @@
-# /usr/bin/python
+#!/usr/bin/env python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
@@ -6,7 +6,9 @@
 ################################################################################
 """
 This module is main worker, central module for crawling tasks
-author cenquanyu(com@baidu.com)
+@Time    : 2020/11/09
+@File    : SpiderWorker.py
+@Author  : cenquanyu@baidu.com
 """
 import os
 from queue import Queue

@@ -1,4 +1,4 @@
-# /usr/bin/python
+#!/usr/bin/env python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
@@ -6,7 +6,9 @@
 ################################################################################
 """
 This module is used to parse params
-author cenquanyu@baidu.com
+@Time    : 2020/11/09
+@File    : param_parser.py
+@Author  : cenquanyu@baidu.com
 """
 import argparse
 import logging

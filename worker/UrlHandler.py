@@ -1,4 +1,4 @@
-# /usr/bin/python
+#!/usr/bin/env python
 ################################################################################
 #
 # Copyright (c) 2020 Baidu.com, Inc. All Rights Reserved
@@ -6,7 +6,9 @@
 ################################################################################
 """
 This module is used to handle URL and HTTP related requests
-author cenquanyu@baidu.com
+@Time    : 2020/11/09
+@File    : UrlHandler.py
+@Author  : cenquanyu@baidu.com
 """
 import os
 from urllib import parse, request
