@@ -32,7 +32,7 @@ class parm_parser(object):
         crawl_interval = config['spider']['crawl_interval']  # scratch interval
         crawl_timeout = config['spider']['crawl_timeout']  # scratch timeout
         thread_count = config['spider']['thread_count']  # scratch thread
-        filter_url = config['spider']['filter_url']
+        filter_url = config['spider']['filter_url']  # URL characteristics
         return urls, result_path, int(max_depth), int(crawl_interval), int(crawl_timeout), int(thread_count), filter_url
 
     @staticmethod
@@ -57,7 +57,7 @@ class parm_parser(object):
             return args
 
     @staticmethod
-    def version(self):
+    def version():
         """
         Print mini spider version
         """
