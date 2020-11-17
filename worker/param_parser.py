@@ -42,9 +42,9 @@ class parm_parser(object):
         :return: nothing
         """
         try:
-            parser = argparse.ArgumentParser(prog='mini_spider',
+            parser = argparse.ArgumentParser(prog='other_mini_spider',
                                              usage='minispider using method',
-                                             description='mini_spider is a Multithreaded crawler')
+                                             description='other_mini_spider is a Multithreaded crawler')
             parser.add_argument('-c', '--conf', help='config_file')
             parser.add_argument('-v', '--version', help='version', action="store_true")
         except argparse.ArgumentError as e:
@@ -61,5 +61,5 @@ class parm_parser(object):
         """
         Print mini spider version
         """
-        print("mini_spider version 1.0.0")
+        print("other_mini_spider version 1.0.0")
 
